@@ -1,0 +1,6 @@
+﻿  Building Custom Rule D:/apps/filefile/thirdparty/libssh2-1.11.0/tests/CMakeLists.txt
+  runner.c
+  session_fixture.c
+  openssh_fixture.c
+  Generating Code...
+  runner.vcxproj -> D:\apps\filefile\thirdparty\libssh2-1.11.0\build\tests\Debug\runner.lib

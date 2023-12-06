@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.23/Modules/CMakeParseArguments.cmake
+D:/apps/filefile/thirdparty/libssh2-1.11.0/build/example/Makefile.am.cmake
+D:/apps/filefile/thirdparty/libssh2-1.11.0/cmake/CopyRuntimeDependencies.cmake
+D:/apps/filefile/thirdparty/libssh2-1.11.0/example/CMakeLists.txt
+D:/apps/filefile/thirdparty/libssh2-1.11.0/example/Makefile.am

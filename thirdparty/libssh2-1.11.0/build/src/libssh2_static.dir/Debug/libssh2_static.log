@@ -1,0 +1,28 @@
+﻿  Building Custom Rule D:/apps/filefile/thirdparty/libssh2-1.11.0/src/CMakeLists.txt
+  agent.c
+  bcrypt_pbkdf.c
+  channel.c
+  comp.c
+  crypt.c
+  crypto.c
+  global.c
+  hostkey.c
+  keepalive.c
+  kex.c
+  knownhost.c
+  mac.c
+  misc.c
+  packet.c
+  pem.c
+  publickey.c
+  scp.c
+  session.c
+  sftp.c
+  transport.c
+  Generating Code...
+  Compiling...
+  userauth.c
+  userauth_kbd_packet.c
+  version.c
+  Generating Code...
+  libssh2_static.vcxproj -> D:\apps\filefile\thirdparty\libssh2-1.11.0\build\src\Debug\libssh2_static.lib

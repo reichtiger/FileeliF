@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/apps/filefile/thirdparty/libssh2-1.11.0/tests/CMakeLists.txt
+  test_hostkey.c
+  test_hostkey.vcxproj -> D:\apps\filefile\thirdparty\libssh2-1.11.0\build\tests\Release\test_hostkey.exe

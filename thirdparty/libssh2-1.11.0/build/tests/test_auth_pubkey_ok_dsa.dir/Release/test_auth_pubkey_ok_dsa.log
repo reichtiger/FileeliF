@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/apps/filefile/thirdparty/libssh2-1.11.0/tests/CMakeLists.txt
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(241,5): warning MSB8065: Custom build for item "D:\apps\filefile\thirdparty\libssh2-1.11.0\tests\CMakeLists.txt" succeeded, but specified output "d:\apps\filefile\thirdparty\libssh2-1.11.0\build\tests\cmakefiles\generate.stamp" has not been created. This may cause incremental build to work incorrectly.
+  test_auth_pubkey_ok_dsa.c
+  test_auth_pubkey_ok_dsa.vcxproj -> D:\apps\filefile\thirdparty\libssh2-1.11.0\build\tests\Release\test_auth_pubkey_ok_dsa.exe

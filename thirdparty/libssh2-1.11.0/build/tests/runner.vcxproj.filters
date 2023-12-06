@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\tests\runner.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\tests\session_fixture.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\tests\openssh_fixture.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\tests\runner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\tests\session_fixture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\tests\openssh_fixture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\tests\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0DCBC34C-8543-3B7D-BB60-B50D58AB21D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{17E1BE4F-995D-3522-AD56-48F3CE4A057D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

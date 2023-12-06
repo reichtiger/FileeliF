@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/apps/filefile/thirdparty/libssh2-1.11.0/example/CMakeLists.txt
+  subsystem_netconf.c
+  subsystem_netconf.vcxproj -> D:\apps\filefile\thirdparty\libssh2-1.11.0\build\example\Release\subsystem_netconf.exe

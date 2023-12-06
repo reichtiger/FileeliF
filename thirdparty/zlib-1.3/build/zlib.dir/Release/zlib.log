@@ -1,0 +1,19 @@
+﻿  Building Custom Rule D:/apps/filefile/thirdparty/zlib-1.3/CMakeLists.txt
+  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  gzclose.c
+  gzlib.c
+  gzread.c
+  gzwrite.c
+  inflate.c
+  infback.c
+  inftrees.c
+  inffast.c
+  trees.c
+  uncompr.c
+  zutil.c
+  Generating Code...
+     Creating library D:/apps/filefile/thirdparty/zlib-1.3/build/Release/zlib.lib and object D:/apps/filefile/thirdparty/zlib-1.3/build/Release/zlib.exp
+  zlib.vcxproj -> D:\apps\filefile\thirdparty\zlib-1.3\build\Release\zlib.dll

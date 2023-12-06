@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/apps/filefile/thirdparty/libssh2-1.11.0/example/CMakeLists.txt
+  scp_nonblock.c
+  scp_nonblock.vcxproj -> D:\apps\filefile\thirdparty\libssh2-1.11.0\build\example\Release\scp_nonblock.exe

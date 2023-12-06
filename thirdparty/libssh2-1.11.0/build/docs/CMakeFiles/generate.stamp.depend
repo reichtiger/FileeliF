@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.23/Modules/GNUInstallDirs.cmake
+D:/apps/filefile/thirdparty/libssh2-1.11.0/build/docs/Makefile.am.cmake
+D:/apps/filefile/thirdparty/libssh2-1.11.0/docs/CMakeLists.txt
+D:/apps/filefile/thirdparty/libssh2-1.11.0/docs/Makefile.am

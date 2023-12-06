@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/apps/filefile/thirdparty/libssh2-1.11.0/tests/CMakeLists.txt
+  test_auth_keyboard_info_request.c
+  test_auth_keyboard_info_request.vcxproj -> D:\apps\filefile\thirdparty\libssh2-1.11.0\build\tests\Release\test_auth_keyboard_info_request.exe

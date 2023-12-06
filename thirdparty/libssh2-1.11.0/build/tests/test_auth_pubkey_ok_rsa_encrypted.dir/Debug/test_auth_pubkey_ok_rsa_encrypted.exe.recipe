@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\apps\filefile\thirdparty\libssh2-1.11.0\build\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\apps\filefile\thirdparty\libssh2-1.11.0\build\src\Debug\libssh2.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\apps\filefile\thirdparty\libssh2-1.11.0\build\x64\Debug\copy_test_dependencies</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\apps\filefile\thirdparty\libssh2-1.11.0\build\tests\Debug\test_auth_pubkey_ok_rsa_encrypted.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

@@ -1,0 +1,8 @@
+D:/apps/filefile/thirdparty/zlib-1.3/build/CMakeFiles/zlib.dir
+D:/apps/filefile/thirdparty/zlib-1.3/build/CMakeFiles/zlibstatic.dir
+D:/apps/filefile/thirdparty/zlib-1.3/build/CMakeFiles/example.dir
+D:/apps/filefile/thirdparty/zlib-1.3/build/CMakeFiles/minigzip.dir
+D:/apps/filefile/thirdparty/zlib-1.3/build/CMakeFiles/RUN_TESTS.dir
+D:/apps/filefile/thirdparty/zlib-1.3/build/CMakeFiles/INSTALL.dir
+D:/apps/filefile/thirdparty/zlib-1.3/build/CMakeFiles/ALL_BUILD.dir
+D:/apps/filefile/thirdparty/zlib-1.3/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/apps/filefile/thirdparty/libssh2-1.11.0/example/CMakeLists.txt
+  ssh2_echo.c
+  ssh2_echo.vcxproj -> D:\apps\filefile\thirdparty\libssh2-1.11.0\build\example\Release\ssh2_echo.exe

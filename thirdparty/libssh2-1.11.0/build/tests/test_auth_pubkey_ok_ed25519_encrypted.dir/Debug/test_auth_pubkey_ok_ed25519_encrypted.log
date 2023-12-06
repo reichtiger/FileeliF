@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/apps/filefile/thirdparty/libssh2-1.11.0/tests/CMakeLists.txt
+  test_auth_pubkey_ok_ed25519_encrypted.c
+  test_auth_pubkey_ok_ed25519_encrypted.vcxproj -> D:\apps\filefile\thirdparty\libssh2-1.11.0\build\tests\Debug\test_auth_pubkey_ok_ed25519_encrypted.exe

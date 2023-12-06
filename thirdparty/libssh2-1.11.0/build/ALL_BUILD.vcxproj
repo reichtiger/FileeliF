@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FC3EDCFB-EB42-3529-8E4D-82B617D77946}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/apps/filefile/thirdparty/libssh2-1.11.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/apps/filefile/thirdparty/libssh2-1.11.0 -BD:/apps/filefile/thirdparty/libssh2-1.11.0/build --check-stamp-file D:/apps/filefile/thirdparty/libssh2-1.11.0/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindOpenSSL.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.23\Templates\CPackConfig.cmake.in;D:\apps\filefile\thirdparty\libssh2-1.11.0\build\CMakeFiles\3.23.1\CMakeCCompiler.cmake;D:\apps\filefile\thirdparty\libssh2-1.11.0\build\CMakeFiles\3.23.1\CMakeRCCompiler.cmake;D:\apps\filefile\thirdparty\libssh2-1.11.0\build\CMakeFiles\3.23.1\CMakeSystem.cmake;D:\apps\filefile\thirdparty\libssh2-1.11.0\cmake\CheckFunctionExistsMayNeedLibrary.cmake;D:\apps\filefile\thirdparty\libssh2-1.11.0\cmake\CheckNonblockingSocketSupport.cmake;D:\apps\filefile\thirdparty\libssh2-1.11.0\cmake\max_warnings.cmake;D:\apps\filefile\thirdparty\libssh2-1.11.0\src\libssh2_config_cmake.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\apps\filefile\thirdparty\libssh2-1.11.0\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/apps/filefile/thirdparty/libssh2-1.11.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/apps/filefile/thirdparty/libssh2-1.11.0 -BD:/apps/filefile/thirdparty/libssh2-1.11.0/build --check-stamp-file D:/apps/filefile/thirdparty/libssh2-1.11.0/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindOpenSSL.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.23\Templates\CPackConfig.cmake.in;D:\apps\filefile\thirdparty\libssh2-1.11.0\build\CMakeFiles\3.23.1\CMakeCCompiler.cmake;D:\apps\filefile\thirdparty\libssh2-1.11.0\build\CMakeFiles\3.23.1\CMakeRCCompiler.cmake;D:\apps\filefile\thirdparty\libssh2-1.11.0\build\CMakeFiles\3.23.1\CMakeSystem.cmake;D:\apps\filefile\thirdparty\libssh2-1.11.0\cmake\CheckFunctionExistsMayNeedLibrary.cmake;D:\apps\filefile\thirdparty\libssh2-1.11.0\cmake\CheckNonblockingSocketSupport.cmake;D:\apps\filefile\thirdparty\libssh2-1.11.0\cmake\max_warnings.cmake;D:\apps\filefile\thirdparty\libssh2-1.11.0\src\libssh2_config_cmake.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\apps\filefile\thirdparty\libssh2-1.11.0\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/apps/filefile/thirdparty/libssh2-1.11.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/apps/filefile/thirdparty/libssh2-1.11.0 -BD:/apps/filefile/thirdparty/libssh2-1.11.0/build --check-stamp-file D:/apps/filefile/thirdparty/libssh2-1.11.0/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindOpenSSL.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.23\Templates\CPackConfig.cmake.in;D:\apps\filefile\thirdparty\libssh2-1.11.0\build\CMakeFiles\3.23.1\CMakeCCompiler.cmake;D:\apps\filefile\thirdparty\libssh2-1.11.0\build\CMakeFiles\3.23.1\CMakeRCCompiler.cmake;D:\apps\filefile\thirdparty\libssh2-1.11.0\build\CMakeFiles\3.23.1\CMakeSystem.cmake;D:\apps\filefile\thirdparty\libssh2-1.11.0\cmake\CheckFunctionExistsMayNeedLibrary.cmake;D:\apps\filefile\thirdparty\libssh2-1.11.0\cmake\CheckNonblockingSocketSupport.cmake;D:\apps\filefile\thirdparty\libssh2-1.11.0\cmake\max_warnings.cmake;D:\apps\filefile\thirdparty\libssh2-1.11.0\src\libssh2_config_cmake.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\apps\filefile\thirdparty\libssh2-1.11.0\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/apps/filefile/thirdparty/libssh2-1.11.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/apps/filefile/thirdparty/libssh2-1.11.0 -BD:/apps/filefile/thirdparty/libssh2-1.11.0/build --check-stamp-file D:/apps/filefile/thirdparty/libssh2-1.11.0/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindOpenSSL.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.23\Templates\CPackConfig.cmake.in;D:\apps\filefile\thirdparty\libssh2-1.11.0\build\CMakeFiles\3.23.1\CMakeCCompiler.cmake;D:\apps\filefile\thirdparty\libssh2-1.11.0\build\CMakeFiles\3.23.1\CMakeRCCompiler.cmake;D:\apps\filefile\thirdparty\libssh2-1.11.0\build\CMakeFiles\3.23.1\CMakeSystem.cmake;D:\apps\filefile\thirdparty\libssh2-1.11.0\cmake\CheckFunctionExistsMayNeedLibrary.cmake;D:\apps\filefile\thirdparty\libssh2-1.11.0\cmake\CheckNonblockingSocketSupport.cmake;D:\apps\filefile\thirdparty\libssh2-1.11.0\cmake\max_warnings.cmake;D:\apps\filefile\thirdparty\libssh2-1.11.0\src\libssh2_config_cmake.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\apps\filefile\thirdparty\libssh2-1.11.0\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\ZERO_CHECK.vcxproj">
+      <Project>{7934B373-17F2-3E06-A7C4-DFEE7312A2C9}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\example\direct_tcpip.vcxproj">
+      <Project>{1767237C-9345-3613-88E9-CC64BEC7DCA8}</Project>
+      <Name>direct_tcpip</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\src\libssh2_shared.vcxproj">
+      <Project>{8637D69C-00CA-3F33-9DEE-835BB571932E}</Project>
+      <Name>libssh2_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\src\libssh2_static.vcxproj">
+      <Project>{20E783AE-1AD7-3C28-A010-A977A241EC17}</Project>
+      <Name>libssh2_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\tests\runner.vcxproj">
+      <Project>{54B7C71C-906F-3E8A-BCBC-A2634D32247D}</Project>
+      <Name>runner</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\example\scp.vcxproj">
+      <Project>{1BCDFAB2-053A-3507-A1DC-50C5713FEB6B}</Project>
+      <Name>scp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\example\scp_nonblock.vcxproj">
+      <Project>{8360A45D-D465-3D26-AFCD-52CB57C7DB2B}</Project>
+      <Name>scp_nonblock</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\example\scp_write.vcxproj">
+      <Project>{02D6DCC4-5DDC-312F-8B13-73106FFA2218}</Project>
+      <Name>scp_write</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\example\scp_write_nonblock.vcxproj">
+      <Project>{E5CFCA26-6AC2-3D99-9DF4-541DFE7DB9F6}</Project>
+      <Name>scp_write_nonblock</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\example\sftp.vcxproj">
+      <Project>{B2606D26-8F2E-3045-AAEE-10770F0E9A68}</Project>
+      <Name>sftp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\example\sftp_RW_nonblock.vcxproj">
+      <Project>{CE146400-4E7A-314F-8E07-85618253D730}</Project>
+      <Name>sftp_RW_nonblock</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\example\sftp_append.vcxproj">
+      <Project>{66DB25AC-6E07-3042-9B65-69A7CDD465BB}</Project>
+      <Name>sftp_append</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\example\sftp_mkdir.vcxproj">
+      <Project>{70F185E1-1DAC-335B-BA22-A88BFA0D86ED}</Project>
+      <Name>sftp_mkdir</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\example\sftp_mkdir_nonblock.vcxproj">
+      <Project>{6A5B2092-BCD4-37F3-9DDA-7D240368F9C4}</Project>
+      <Name>sftp_mkdir_nonblock</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\example\sftp_nonblock.vcxproj">
+      <Project>{E5C02249-D8C1-3FC0-A051-6C57E60FFAB5}</Project>
+      <Name>sftp_nonblock</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\example\sftp_write.vcxproj">
+      <Project>{9DBBF672-7485-35FB-BEFC-3F583D210150}</Project>
+      <Name>sftp_write</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\example\sftp_write_nonblock.vcxproj">
+      <Project>{7E854CAD-EFBA-334E-8EF9-D4E2E923B790}</Project>
+      <Name>sftp_write_nonblock</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\example\sftp_write_sliding.vcxproj">
+      <Project>{DC98A48F-8974-3CBD-8495-728355626F43}</Project>
+      <Name>sftp_write_sliding</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\example\sftpdir.vcxproj">
+      <Project>{8AA24BD2-8EBD-3E92-9BA5-46A5C8F9B201}</Project>
+      <Name>sftpdir</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\example\sftpdir_nonblock.vcxproj">
+      <Project>{6F1E517C-AC1D-3084-BBF7-FDADB0B92E17}</Project>
+      <Name>sftpdir_nonblock</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\example\ssh2.vcxproj">
+      <Project>{9312BD9D-84B5-3D36-B1F5-751517C9FFF4}</Project>
+      <Name>ssh2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\example\ssh2_agent.vcxproj">
+      <Project>{B3CE513B-BD9D-3D42-9897-E1DA8988B053}</Project>
+      <Name>ssh2_agent</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\example\ssh2_agent_forwarding.vcxproj">
+      <Project>{80EC0AC5-03CE-3ECF-93F6-0897494648ED}</Project>
+      <Name>ssh2_agent_forwarding</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\example\ssh2_echo.vcxproj">
+      <Project>{802FE69B-9907-35B2-88C6-AF5D0A989CC0}</Project>
+      <Name>ssh2_echo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\example\ssh2_exec.vcxproj">
+      <Project>{7D2ECE44-787E-3CF7-B09D-2DD32B2E053D}</Project>
+      <Name>ssh2_exec</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\example\subsystem_netconf.vcxproj">
+      <Project>{1D9012E4-B3D8-3981-A942-CC6E747BB602}</Project>
+      <Name>subsystem_netconf</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\example\tcpip-forward.vcxproj">
+      <Project>{5036B9CF-EF8F-3656-909D-E98A765A5FB3}</Project>
+      <Name>tcpip-forward</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\tests\test_aa_warmup.vcxproj">
+      <Project>{D1903809-B675-3AB1-AF17-ED8840EFFC61}</Project>
+      <Name>test_aa_warmup</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\tests\test_agent_forward_ok.vcxproj">
+      <Project>{83694D5A-7DFF-3F86-ABA2-350DC7A0B682}</Project>
+      <Name>test_agent_forward_ok</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\tests\test_auth_keyboard_fail.vcxproj">
+      <Project>{2FEF80C2-7338-372D-9D3E-5E442E418758}</Project>
+      <Name>test_auth_keyboard_fail</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\tests\test_auth_keyboard_info_request.vcxproj">
+      <Project>{E60230CB-662D-3F5F-AF9B-999728CBA62D}</Project>
+      <Name>test_auth_keyboard_info_request</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\tests\test_auth_keyboard_ok.vcxproj">
+      <Project>{EA292597-0606-37DD-BA8B-9498208DE587}</Project>
+      <Name>test_auth_keyboard_ok</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\tests\test_auth_password_fail_password.vcxproj">
+      <Project>{015C0032-EC4A-3C9D-AF25-2D58E747BA39}</Project>
+      <Name>test_auth_password_fail_password</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\tests\test_auth_password_fail_username.vcxproj">
+      <Project>{953DAC1D-8B50-3BEB-86A3-FDEB25C38551}</Project>
+      <Name>test_auth_password_fail_username</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\tests\test_auth_password_ok.vcxproj">
+      <Project>{E1A3DB3A-661A-3BBA-9F55-863EAEBE2259}</Project>
+      <Name>test_auth_password_ok</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\tests\test_auth_pubkey_fail.vcxproj">
+      <Project>{8C46CE00-09E4-3A49-802E-3B7C2B1D936B}</Project>
+      <Name>test_auth_pubkey_fail</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\tests\test_auth_pubkey_ok_dsa.vcxproj">
+      <Project>{3CD05ECD-42A1-3769-94C2-95E0ED579490}</Project>
+      <Name>test_auth_pubkey_ok_dsa</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\tests\test_auth_pubkey_ok_ecdsa.vcxproj">
+      <Project>{67DAF269-A5E7-3DC4-A639-B3EB997135DD}</Project>
+      <Name>test_auth_pubkey_ok_ecdsa</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\tests\test_auth_pubkey_ok_ecdsa_signed.vcxproj">
+      <Project>{EC7CA3D2-B171-36FE-85DE-996B2AC2FF7B}</Project>
+      <Name>test_auth_pubkey_ok_ecdsa_signed</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\tests\test_auth_pubkey_ok_ed25519.vcxproj">
+      <Project>{0F9EA302-D12A-3DD9-994F-1BF82EFCF47C}</Project>
+      <Name>test_auth_pubkey_ok_ed25519</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\tests\test_auth_pubkey_ok_ed25519_encrypted.vcxproj">
+      <Project>{9C0E32D1-6571-39E3-8383-07FC6FBCCA5B}</Project>
+      <Name>test_auth_pubkey_ok_ed25519_encrypted</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\tests\test_auth_pubkey_ok_ed25519_mem.vcxproj">
+      <Project>{943FB836-9976-3E05-9899-9FF09858B427}</Project>
+      <Name>test_auth_pubkey_ok_ed25519_mem</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\tests\test_auth_pubkey_ok_rsa.vcxproj">
+      <Project>{41E5B974-4211-3C77-A0B3-78D1DACC9F5A}</Project>
+      <Name>test_auth_pubkey_ok_rsa</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\tests\test_auth_pubkey_ok_rsa_encrypted.vcxproj">
+      <Project>{A8611F58-C97F-3EFD-9915-49A0424077BF}</Project>
+      <Name>test_auth_pubkey_ok_rsa_encrypted</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\tests\test_auth_pubkey_ok_rsa_openssh.vcxproj">
+      <Project>{DC6EFED3-AF68-31A6-BD95-84B5F218316B}</Project>
+      <Name>test_auth_pubkey_ok_rsa_openssh</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\tests\test_auth_pubkey_ok_rsa_signed.vcxproj">
+      <Project>{AEF863DB-85FA-3DB5-BFBD-5DF0BDE37398}</Project>
+      <Name>test_auth_pubkey_ok_rsa_signed</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\tests\test_hostkey.vcxproj">
+      <Project>{EA1CF976-94D8-364D-A4D5-A7C6CD52020B}</Project>
+      <Name>test_hostkey</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\tests\test_hostkey_hash.vcxproj">
+      <Project>{91AD0F48-C3F4-32B9-A1FB-74C327FA449C}</Project>
+      <Name>test_hostkey_hash</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\tests\test_read.vcxproj">
+      <Project>{5272C608-6803-3114-A7B1-C8632C8326AC}</Project>
+      <Name>test_read</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\tests\test_simple.vcxproj">
+      <Project>{6D12511E-3776-3FF6-9545-5C55BFCB2F2A}</Project>
+      <Name>test_simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\tests\test_ssh2.vcxproj">
+      <Project>{A46B76CC-CF0A-3994-BF4C-AFBE450DECED}</Project>
+      <Name>test_ssh2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\apps\filefile\thirdparty\libssh2-1.11.0\build\example\x11.vcxproj">
+      <Project>{F9F9E077-9216-3B69-BD9A-4CB9A6EBF375}</Project>
+      <Name>x11</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/apps/filefile/thirdparty/libssh2-1.11.0/example/CMakeLists.txt
+  scp_write.c
+  scp_write.vcxproj -> D:\apps\filefile\thirdparty\libssh2-1.11.0\build\example\Debug\scp_write.exe

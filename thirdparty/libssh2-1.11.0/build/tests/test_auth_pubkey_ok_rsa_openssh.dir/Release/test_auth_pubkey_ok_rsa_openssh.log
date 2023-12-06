@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/apps/filefile/thirdparty/libssh2-1.11.0/tests/CMakeLists.txt
+  test_auth_pubkey_ok_rsa_openssh.c
+  test_auth_pubkey_ok_rsa_openssh.vcxproj -> D:\apps\filefile\thirdparty\libssh2-1.11.0\build\tests\Release\test_auth_pubkey_ok_rsa_openssh.exe

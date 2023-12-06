@@ -1,0 +1,10 @@
+^D:\APPS\FILEFILE\THIRDPARTY\LIBSSH2-1.11.0\BUILD\CMAKEFILES\991803A709E48AACE4DDD878E69AA9FB\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/apps/filefile/thirdparty/libssh2-1.11.0 -BD:/apps/filefile/thirdparty/libssh2-1.11.0/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/apps/filefile/thirdparty/libssh2-1.11.0/build/libssh2.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
