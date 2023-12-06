@@ -16,6 +16,7 @@ I made this app mainly to save photos and videos of my kids :)
 |     3| wxWidgets      |
 |     4| CURL           |
 |     5| OpenSSL        |
+|     6| CMake          |
 
 ## Some snapshot
 ![setting UI](https://github.com/reichtiger/FileeliF/blob/main/img-show/setting.png?raw=true)
